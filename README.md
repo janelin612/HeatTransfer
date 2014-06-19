@@ -20,6 +20,6 @@ numberOfHight=7;
 + 2cmx2cm
 + 2cmx1cm
 + 1cmx2cm
-+ 1cmx1cm
++ 1cmx1cm   
 的鰭片溫度分布以及熱通量，如下圖所示:   
 ![figure](https://raw.githubusercontent.com/janelin612/HeatTransfer/master/figure&data/figure.png)
