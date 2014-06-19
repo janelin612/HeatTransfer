@@ -12,18 +12,22 @@ TempInfinite=20;
 length=0.14;
 hight=0.12;
 
-for meshCase=1:4  %for switch 1=2x2 2=2x1 3=1x2 4=1x1
+for meshCase=1:4
     switch meshCase
         case 1
+            figureTitle='2x2';
             numberOfLength=8; %number of mesh index = total mesh number +1
             numberOfHight=7;
         case 2
+            figureTitle='2x1';
             numberOfLength=8;
             numberOfHight=13;
         case 3
+            figureTitle='1x2';
             numberOfLength=15;
             numberOfHight=7;
         case 4
+            figureTitle='1x1';
             numberOfLength=15;
             numberOfHight=13;  
     end
@@ -98,16 +102,6 @@ for meshCase=1:4  %for switch 1=2x2 2=2x1 3=1x2 4=1x1
     %T
 
     %figure
-    switch meshCase
-        case 1
-            figureTitle='2x2';
-        case 2
-            figureTitle='2x1';
-        case 3
-            figureTitle='1x2';
-        case 4
-            figureTitle='1x1';
-    end
     subplot(2,2,meshCase);
     contourf(T,30)
     axis([1 numberOfLength 1 numberOfHight]);
