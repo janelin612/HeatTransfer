@@ -7,14 +7,15 @@
    
 程式碼說明:   
 -------------   
-本程式支援的網格數量底邊(length)為7的整數倍，高(hight)為3的整數倍(!=3)   
+本程式支援的網格數量底邊(length)為7的整數倍，高(hight)為3的整數倍(!=3)  
+可自行於程式碼的[此處](https://github.com/janelin612/HeatTransfer/blob/master/code/code.m#L29)進行修改    
 惟須注意一點為輸入值須自行加一，如7X6則須輸入:
 ```    
 numberOfLength=8;   
 numberOfHight=7;
 ```
    
-預期輸出:
+程式輸出:
 -----------
 其將會輸出四張圖，分別為網格解析度   
 + 2cmx2cm
